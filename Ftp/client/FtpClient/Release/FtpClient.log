@@ -1,0 +1,13 @@
+﻿  Client.cpp
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(10): warning C4101: “len”: 未引用的局部变量
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(8): warning C4101: “message”: 未引用的局部变量
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(11): warning C4101: “buf”: 未引用的局部变量
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(34): warning C4101: “len”: 未引用的局部变量
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(32): warning C4101: “message”: 未引用的局部变量
+e:\c\vs2017\ftpclient\ftpclient\client.cpp(35): warning C4101: “buf”: 未引用的局部变量
+  正在生成代码
+  2 of 209 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  FtpClient.vcxproj -> E:\C\VS2017\FtpClient\Release\FtpClient.exe

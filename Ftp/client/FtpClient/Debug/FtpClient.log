@@ -1,0 +1,10 @@
+﻿  Client.cpp
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(10,6): warning C4101:  “len”: 未引用的局部变量
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(8,7): warning C4101:  “message”: 未引用的局部变量
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(11,7): warning C4101:  “buf”: 未引用的局部变量
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(34,6): warning C4101:  “len”: 未引用的局部变量
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(32,7): warning C4101:  “message”: 未引用的局部变量
+  main.cpp
+  正在生成代码...
+E:\C\VS2017\FtpClient\FtpClient\Client.cpp(35,7): warning C4101:  “buf”: 未引用的局部变量
+  FtpClient.vcxproj -> E:\C\VS2017\FtpClient\Debug\FtpClient.exe

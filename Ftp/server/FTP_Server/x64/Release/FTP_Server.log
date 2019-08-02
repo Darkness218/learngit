@@ -1,0 +1,9 @@
+﻿  FTP.cpp
+e:\c\vs2017\ftp_server\ftp_server\ftp.cpp(125): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  正在生成代码
+  33 of 393 functions ( 8.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  FTP_Server.vcxproj -> E:\C\VS2017\FTP_Server\x64\Release\FTP_Server.exe

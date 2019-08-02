@@ -1,0 +1,32 @@
+#pragma once
+
+
+#include <WinSock2.h>
+#include <memory.h>
+#include <ws2tcpip.h> 
+#include <string>
+#include <io.h>
+#include <vector>
+#include <iostream>
+#include <fstream>
+using namespace::std;
+
+#define FTP_CON_PORT 21
+#define FTP_DATA_PORT 20
+
+class Ftp {
+private:
+	
+	//string dir;       //存放默认路径
+public:
+	SOCKET con_sock;  //连接socket
+	SOCKET data_sock;  //数据传输socket
+	string cur_path;   //存放当前路径
+	string dir;       //存放默认路径
+	Ftp();
+	~Ftp();
+	bool conection();
+	bool data_conection();
+	void getCurrentFile(vector<string>& files);
+	int sendFile(SOCKET data_sock, string filename);
+};
